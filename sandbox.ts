@@ -77,3 +77,25 @@ ninjaTwo = {
   age: 33,
   married: true,
 };
+
+let age2: any = 25;
+age2 = "string";
+
+let mixed2: any[] = [];
+mixed2.push(5);
+mixed2.push("mario");
+mixed2.push(false);
+
+interface Mixed {
+  name: string;
+  age: number;
+  active: boolean;
+}
+
+let mixed3: Mixed;
+
+mixed3 = {
+  name: "ok",
+  age: 34,
+  active: true,
+};
