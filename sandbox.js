@@ -49,3 +49,15 @@ ninjaTwo = {
     age: 33,
     married: true,
 };
+var age2 = 25;
+age2 = "string";
+var mixed2 = [];
+mixed2.push(5);
+mixed2.push("mario");
+mixed2.push(false);
+var mixed3;
+mixed3 = {
+    name: "ok",
+    age: 34,
+    active: true,
+};
